@@ -58,7 +58,7 @@ When the receiver opens the link, the app decodes the URL parameter and renders 
 
 Clone the repository:
 
-git clone [https://github.com/aslifargham/new-year-2026.git](https://github.com/aslifargham/new-year-2026.git)
+git clone [https://github.com/aslifargham/happy-new-year-2026.git](https://github.com/aslifargham/happy-new-year-2026.git)
 
 
 Run:
