@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background: Rounded Square (Dark Theme) -->
+    <rect width="64" height="64" rx="16" fill="#111827"/>
+    
+    <!-- Gold Border (Luxury Touch) -->
+    <rect x="2" y="2" width="60" height="60" rx="14" stroke="#D4AF37" stroke-width="2" opacity="0.5"/>
+
+    <!-- Firework Sparks (Festive) -->
+    <path d="M32 6L32 10" stroke="#FBBF24" stroke-width="2" stroke-linecap="round"/>
+    <path d="M46 10L43 13" stroke="#FBBF24" stroke-width="2" stroke-linecap="round"/>
+    <path d="M18 10L21 13" stroke="#FBBF24" stroke-width="2" stroke-linecap="round"/>
+    <path d="M54 22L50 22" stroke="#FBBF24" stroke-width="2" stroke-linecap="round"/>
+    <path d="M10 22L14 22" stroke="#FBBF24" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Text: '26' (Bold & Centered) -->
+    <text x="32" y="46" font-family="Arial, sans-serif" font-weight="900" font-size="28" fill="#D4AF37" text-anchor="middle">2026</text>
+</svg>
