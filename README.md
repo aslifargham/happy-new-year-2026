@@ -1,24 +1,85 @@
-# 💫 About Me:
-🔭 I’m currently working on<br>IN Qarshi University building a Content Management System (CMS) in laravel<br>Building a personal portfolio website with React and Tailwind CSS — finally making my digital presence shine!<br><br>👥 I’m looking to collaborate on<br>Creative tech projects — especially anything involving AI, interactive design, or indie game dev. Let’s build something cool together!<br><br>💛 I’m looking for help with<br>Understanding advanced CSS animations and responsive layouts — got any tips or resources?<br><br>🌱 I’m currently learning<br>TypeScript and Next.js to level up my full-stack skills. Also brushing up on UX principles!<br><br>💬 Ask me about<br>My favorite indie games, how I organize my coding workflow, or why I think dark mode is non-negotiable.<br><br>⚡ Fun fact<br>I once coded an entire website using only emojis as class names… it worked (sort of).
+Happy New Year 2026 Wish Generator 🎆
+
+A modern, serverless, and viral-ready web application designed to create and share personalized New Year greeting cards. Built with performance and scalability in mind, this project uses a unique URL-based state management system, eliminating the need for a backend database.
+
+🚀 Features
+
+Serverless Architecture: Uses Base64 URL encoding to store card data. No database means zero hosting costs and infinite scalability during high-traffic events.
+
+4 Stunning Themes:
+
+✨ Fireworks: Classic celebration mode with particle effects.
+
+👑 Luxury Gold: Premium, elegant aesthetic.
+
+🌙 Islamic Green: Culturally resonant theme with gold accents.
+
+🌿 Minimal Light: Clean and professional.
+
+Multi-Language Support: Full support for English, Urdu (Right-to-Left layout), and Roman Urdu.
+
+Interactive Elements:
+
+Custom HTML5 Canvas Fireworks engine.
+
+Typewriter text animation effects.
+
+Live Countdown timer to Jan 1st, 2026.
+
+Responsive Design: Mobile-first approach, optimized for sharing via WhatsApp and Facebook.
+
+🛠️ Tech Stack
+
+Core: HTML5, Vanilla JavaScript (ES6+)
+
+Styling: Tailwind CSS (via CDN for lightweight deployment)
+
+Graphics: HTML5 Canvas API (Custom Particle System)
+
+Typography: Google Fonts (Poppins, Great Vibes, Noto Nastaliq Urdu, Cinzel)
+
+Icons: FontAwesome 6
+
+⚙️ How It Works (The "Viral" Logic)
+
+Instead of saving user data to a MySQL database (which can crash under heavy load or hit API limits), this app packs the data directly into the URL.
+
+User enters Name, Message, and selects a Theme.
+
+JavaScript creates a lightweight JSON object: {s: "Name", m: "Message", t: "luxury"}.
+
+The object is compressed and encoded into a Base64 string.
+
+The URL is dynamically updated: yoursite.com/?c=eyJzIjoiRmFyZ2hhb...
+
+When the receiver opens the link, the app decodes the URL parameter and renders the personalized card instantly on the client side.
+
+📦 Installation & Usage
+
+Clone the repository:
+
+git clone [https://github.com/aslifargham/new-year-2026.git](https://github.com/aslifargham/new-year-2026.git)
 
 
-## 🌐 Socials:
-[![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/farghamsaqib) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/aslifargham) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/iamfargham) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/fargham-saqib) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@farghamsaqib) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/aslifargham) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:farghamsaqib@gmail.com) 
+Run:
+Simply open index.html in any modern web browser. No npm install, build steps, or server setup required.
 
-# 💻 Tech Stack:
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=for-the-badge&logo=Adobe%20Acrobat%20Reader&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Adobe Lightroom Classic](https://img.shields.io/badge/Adobe%20Lightroom%20Classic-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom%20Classic&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Affinity Designer](https://img.shields.io/badge/affinity%20desginer-%231B72BE.svg?style=for-the-badge&logo=affinity-designer&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Dribbble](https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Airbnb](https://img.shields.io/badge/Airbnb-%23ff5a5f.svg?style=for-the-badge&logo=Airbnb&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=aslifargham&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=aslifargham&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=aslifargham&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=aslifargham&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+👨‍💻 Author
 
----
-[![](https://visitcount.itsvg.in/api?id=aslifargham&icon=0&color=0)](https://visitcount.itsvg.in)
+Fargham Saqib
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+BS Computer Science Graduate (Qarshi University)
+
+Web Developer & Designer
+
+Connect with me:
+
+LinkedIn
+
+Instagram
+
+Facebook
+
+© 2025-2026 Fargham Saqib. All Rights Reserved.
